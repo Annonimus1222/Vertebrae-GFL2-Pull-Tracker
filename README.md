@@ -172,7 +172,7 @@ Help us translate Vertebrae into more languages!
 
 ## 📄 License
 
-This project is licensed under the **GPLv4 License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **GNU GPL3 License v3.0** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
