@@ -121,9 +121,45 @@ python main.py
 | Import very slow | Reduce page limit in settings or check internet connection |
 | App won't start | Install [Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe) if you don't have it |
 
+### Roadmap:
+
+1 - Make a better interface to replace this ugly one it has right now
+
+2 - Implement a pity counter, with 50/50 analyzer (to check if your next 5 star is 50/50 or guaranteed)
+
+3 - Combine both EN and ES versions into the same app, and add more languages if required/requested
+
+4 - Add dark and gray themes, selectable from the menu
+
+5 - Add multiple account support
+
+6 - Add images for EACH item, doll and weapon, and make the "History" tab fancier
+
+7 - Add a "Delete Records" button, to make it easier to reset the first state of the app. Meanwhile you can just delete the "backup.json" file to do so. Note that this will erase ALL of the pulls data the app was showing
+
+
+### Known bugs and fixes:
+
+
+1 - The pie graphic in the statistic tab doesn't work properly. I'll check it when got time
+
+2 - The "Event" filter doesn't filter sh**. This is "intended" to a certain extreme, as it is the placeholder for the "Skin" banner
+
+3 - The "History" tab works poorly, concretely the filters does. Will optimize it later
+
+4 - The language and theme selector doesn't do anything, or if they do, is badly implemented. Will finish this also when I merge both versions
+
+5 - Right now, date is shown in the yyyy/mm/dd format. I want to add an option to let the user choose which format it should use. I myself prefer the dd/mm/yyyy
+
+6 - The token has to be writen perfectly into the token tab. Buuuh... I want to make it intelligent, so if you paste a bunch of unrelated text, it finds automatically your token
+
+7 - The dictionaries (dolls/weapons/item names and localizations) are updated enough for now, but I'll need a better way to update them
+
+
+
 ### Getting Help
 1. Check this README and the in-app help guide
-2. Search existing [GitHub Issues](https://github.com/your-username/vertebrae/issues)
+2. Search existing [GitHub Issues]
 3. Create a new issue with detailed information
 
 ---
@@ -148,7 +184,7 @@ By using this software, you acknowledge that:
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
+I welcome contributions! Here's how you can help:
 
 ### 🐛 Report Bugs
 - Use the GitHub Issues template
