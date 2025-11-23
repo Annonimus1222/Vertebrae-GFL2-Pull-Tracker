@@ -1,10 +1,4 @@
-```markdown
 # Vertebrae - Girl's Frontline 2: Exilium Gacha Tracker
-
-![Vertebrae Logo](https://img.shields.io/badge/Vertebrae-Gacha%20Tracker-blue?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.8%2B-yellow?style=flat-square)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 A simple, fan-made desktop application for tracking and analyzing your gacha pull history in **Girl's Frontline 2: Exilium**. Get detailed statistics, filter your pulls, and visualize your spending across all banners.
 
@@ -44,10 +38,10 @@ A simple, fan-made desktop application for tracking and analyzing your gacha pul
 3. Run the executable - no installation required!
 
 ### 🐍 Python Source (Developers)
-Download the source code of the language you choose
-Run main.py with Python
-```
-bash
+1. Download the source code of the language you choose
+2. Run main.py with Python
+
+```bash
 python main.py
 ```
 
@@ -106,13 +100,15 @@ python main.py
 ### Your Data is Yours
 - ✅ **100% Local Storage**: No data leaves your computer
 - ✅ **No Account Required**: Email is only used for API calls
-- ✅ **No Personal Data**: It only store pull history, no personal info
+- ✅ **No Personal Data**: It only stores pull history, no personal info
 - ✅ **Open Source**: You can verify the code yourself if you want
 
 ### Security Features
 - **SSL Verification**: Secure API communication
 - **Token Encryption**: Local token storage protection
 - **No Persistent Login**: Tokens aren't saved between sessions
+
+---
 
 ## 🐛 Troubleshooting
 
@@ -123,7 +119,7 @@ python main.py
 | "Invalid token" error | Check the text you pasted. It cannot have anything else apart from the token itself, no spaces or anything |
 | "No data found" | Check server selection and ensure you've pulled recently |
 | Import very slow | Reduce page limit in settings or check internet connection |
-| App won't start | Install [Visual C++ Redistributable] if you dont have it (https://aka.ms/vs/16/release/vc_redist.x64.exe) |
+| App won't start | Install [Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe) if you don't have it |
 
 ### Getting Help
 1. Check this README and the in-app help guide
@@ -144,7 +140,7 @@ This project is developed by fans for educational and personal use purposes. All
 ### User Responsibility
 By using this software, you acknowledge that:
 - You understand the risks of using third-party tools
-- The developer is not responsible for any account penalties (Tho it shouldn't be any problem)
+- The developer is not responsible for any account penalties (Though there shouldn't be any problem)
 - You comply with the game's Terms of Service
 - You use this tool at your own discretion
 
@@ -183,4 +179,3 @@ This project is licensed under the **GPLv4 License** - see the [LICENSE](LICENSE
 **Happy Pulling!** 🎮✨
 
 *If you find Vertebrae useful, consider giving it a ⭐ on GitHub!*
-```
