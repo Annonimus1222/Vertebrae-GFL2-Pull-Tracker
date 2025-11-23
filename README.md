@@ -1,2 +1,186 @@
-# Vertebrae-GFL2-Pull-Tracker
-A simple, open source python-made app to track your GFL2 pulls
+```markdown
+# Vertebrae - Girl's Frontline 2: Exilium Gacha Tracker
+
+![Vertebrae Logo](https://img.shields.io/badge/Vertebrae-Gacha%20Tracker-blue?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.8%2B-yellow?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+A simple, fan-made desktop application for tracking and analyzing your gacha pull history in **Girl's Frontline 2: Exilium**. Get detailed statistics, filter your pulls, and visualize your spending across all banners.
+
+---
+
+## 🚀 Features
+
+### 📥 Smart Data Import
+- **Secure API Integration**: Uses the same official API as the game client
+- **Automatic Deduplication**: Never records the same pull twice
+- **Multi-Server Support**: Works with all GF2 servers worldwide
+- **Batch Processing**: Import thousands of pulls in minutes
+
+### 📊 Advanced Statistics
+- **Visual Analytics**: Interactive pie charts showing banner distribution (WIP)
+- **Multi-Pull Detection**: Automatically identifies 10-pull multis
+- **Time Range Analysis**: Track your pulling habits over time
+- **Rarity Breakdown**: See your luck distribution across rarities
+
+### 🔍 Powerful Filtering
+- **Banner Filtering**: Filter by character, weapon, permanent, or event (placeholder) banners
+- **Rarity Search**: Find all your 5-star pulls instantly
+- **Text Search**: Search for specific characters or weapons by name
+- **Real-time Filtering**: See results update as you type
+
+### 💾 Data Management
+- **Local Storage**: All data stays on your computer - no cloud storage
+- **Configurable Limits**: Set your own import limits
+
+---
+
+## 🛠️ Installation
+
+### 📦 Direct Download (Recommended)
+1. Go to the [Releases page](https://github.com/your-username/vertebrae/releases)
+2. Download the latest `Vertebrae_vX.X.X.exe` file
+3. Run the executable - no installation required!
+
+### 🐍 Python Source (Developers)
+Download the source code of the language you choose
+Run main.py with Python
+```
+bash
+python main.py
+```
+
+---
+
+## 📖 Quick Start Guide
+
+### Step 1: Get Your Authorization Token
+1. **Download Fiddler Classic** from the official website
+2. **Run Fiddler** and start capturing traffic
+3. **Launch Girls Frontline 2** and go to any banner details page
+4. **In Fiddler**, find the request starting with `https://gf2-gacha-record`
+5. **Copy the Authorization header** value (right-click → Copy Value)
+
+### Step 2: Import Your Data
+1. **Open Vertebrae** and go to the Import tab
+2. **Paste your token** (Deleting any text before the token) and enter the account email
+3. **Select your server** from the dropdown menu
+4. **Click "Start Import"** and watch your history load!
+
+### Step 3: Explore Your Data
+- **History Tab**: Browse and filter all your pulls
+- **Statistics Tab**: View visual charts and detailed analytics (WIP)
+- **Use Search**: Find specific characters or weapons instantly
+
+---
+
+## 🌐 Supported Servers
+
+| Server | Region | Status |
+|--------|--------|---------|
+| Darkwinter | US/EU | ✅ Fully Supported |
+| Haoplay Asia | Asia | ✅ Fully Supported |
+| Haoplay Japan | Japan | ✅ Fully Supported |
+| Haoplay Korea | Korea | ✅ Fully Supported |
+| Haoplay International | Global | ✅ Fully Supported |
+| CN Server | China | ✅ Fully Supported |
+
+---
+
+## ⚙️ Configuration
+
+### API Settings
+- **Page Limit**: Control how many pages to import
+- **Request Timeout**: Adjust timeout for slow connections
+- **Max Retries**: Set retry attempts for failed requests
+
+### Application Settings
+- **Language**: English and Spanish support (WIP - For future versions, it will be only one exe, no multiple languages)
+- **Theme**: Light/Dark/System themes (placeholder, will be implemented)
+
+---
+
+## 🔒 Privacy & Security
+
+### Your Data is Yours
+- ✅ **100% Local Storage**: No data leaves your computer
+- ✅ **No Account Required**: Email is only used for API calls
+- ✅ **No Personal Data**: It only store pull history, no personal info
+- ✅ **Open Source**: You can verify the code yourself if you want
+
+### Security Features
+- **SSL Verification**: Secure API communication
+- **Token Encryption**: Local token storage protection
+- **No Persistent Login**: Tokens aren't saved between sessions
+
+## 🐛 Troubleshooting
+
+### Common Issues & Solutions
+
+| Problem | Solution |
+|---------|----------|
+| "Invalid token" error | Check the text you pasted. It cannot have anything else apart from the token itself, no spaces or anything |
+| "No data found" | Check server selection and ensure you've pulled recently |
+| Import very slow | Reduce page limit in settings or check internet connection |
+| App won't start | Install [Visual C++ Redistributable] if you dont have it (https://aka.ms/vs/16/release/vc_redist.x64.exe) |
+
+### Getting Help
+1. Check this README and the in-app help guide
+2. Search existing [GitHub Issues](https://github.com/your-username/vertebrae/issues)
+3. Create a new issue with detailed information
+
+---
+
+## 🛡️ Legal Disclaimer
+
+**Vertebrae** is a **fan-made, unofficial tool** and is not affiliated with, sponsored by, or endorsed by:
+- **Sunborn Network Technology Co.**
+- **MICA Team** 
+- **Girl's Frontline 2: Exilium**
+
+This project is developed by fans for educational and personal use purposes. All game assets and data belong to their respective owners.
+
+### User Responsibility
+By using this software, you acknowledge that:
+- You understand the risks of using third-party tools
+- The developer is not responsible for any account penalties (Tho it shouldn't be any problem)
+- You comply with the game's Terms of Service
+- You use this tool at your own discretion
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+### 🐛 Report Bugs
+- Use the GitHub Issues template
+- Include detailed steps to reproduce
+
+### 💡 Suggest Features
+- Check existing feature requests first
+- Explain the use case and benefits
+- Consider if it aligns with project goals
+
+### 🔧 Code Contributions
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+### 🌍 Translations
+Help us translate Vertebrae into more languages!
+
+---
+
+## 📄 License
+
+This project is licensed under the **GPLv4 License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Happy Pulling!** 🎮✨
+
+*If you find Vertebrae useful, consider giving it a ⭐ on GitHub!*
+```
