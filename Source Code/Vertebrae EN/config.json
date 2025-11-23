@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "settings": {
+    "page_limit": 50,
+    "request_timeout": 20,
+    "max_retries": 3,
+    "default_language": "EN",
+    "theme": "system"
+  }
+}

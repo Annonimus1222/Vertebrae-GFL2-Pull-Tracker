@@ -1,0 +1,17 @@
+{
+  "2": {"name_key": "Item_Icon_Cash", "rarity": 2},
+  "25": {"name_key": "Item_Icon_Expbook_1", "rarity": 2},
+  "8301": {"name_key": "Item_Icon_WeaponBlueprint_2", "rarity": 2},
+  "8328": {"name_key": "Item_Icon_Ram_2", "rarity": 2},
+  "8329": {"name_key": "Item_Icon_Ram_3", "rarity": 3},
+  "8330": {"name_key": "Item_Icon_Ram_4", "rarity": 4},
+  "8331": {"name_key": "Item_Icon_Ram_5", "rarity": 5},
+  "9006": {"name_key": "Item_Icon_TalentConductor_1", "rarity": 1},
+  "9007": {"name_key": "Item_Icon_TalentConductor_2", "rarity": 2},
+  "9008": {"name_key": "Item_Icon_TalentConductor_3", "rarity": 3},
+  "9009": {"name_key": "Item_Icon_TalentConductor_4", "rarity": 4},
+  "9010": {"name_key": "Item_Icon_TalentConductor_5", "rarity": 5},
+  "9011": {"name_key": "Item_Icon_TalentConductor_6", "rarity": 5},
+  "9012": {"name_key": "Item_Icon_TalentNucleus_3", "rarity": 5},
+  "300003": {"name_key": "Item_Icon_love_gift_general_1", "rarity": 3}
+}
